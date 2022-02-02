@@ -1,1 +1,3 @@
 もう使う予定ありません
+どうしても見たい物好きはこちら
+githubpages.rtx3070kure.net

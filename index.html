@@ -8,7 +8,7 @@
     <meta property="og:title" content="aatame3.net" />
     <meta property="og:description" content="aatame3" />
     <meta property="og:site_name" content="aatame3" />
-    <meta property="og:image" content="https://aatame3.net/ogp.webp" />
+    <meta property="og:image" content="https://aatame3.net/ogp.jpg" />
     <meta name="twitter:card" content="summary_large_image">
   <meta charset="UTF-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
@@ -25,7 +25,17 @@
   <title>aatame3</title>  
 
 <link href="./main.3da94fde.css" rel="stylesheet"></head>
+<script>
+  var confirmation = confirm("ベータ版のページにアクセス可能です！アクセスしますか？");
 
+  // ユーザーが"Yes"を選択した場合にリダイレクト
+  if (confirmation) {
+      window.location.href = "beta.aatame3.net"; // リダイレクト先のURLを指定してください
+  } else {
+      // "No"を選択した場合の処理（何もしない、または他の処理を追加できます）
+      console.log("現在のリリースチャネルをお楽しみください。");
+  }
+</script>
 <body>
 
  <!-- Add your content of header -->
